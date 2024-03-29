@@ -27,7 +27,7 @@ jobs:
         SONAR_HOST_URL: ${{ secrets.SONARQUBE_HOST }} 
       with:
         args:
-          -Dsonar.projectKey=Secret-Santa
+          -Dsonar.projectKey=petclinic
           -Dsonar.java.binaries=.  
 
     
